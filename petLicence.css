@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.License {
+    width: 700px;
+    margin: 40px auto;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+}
+
+main .info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .info img{
+    width: 150px;
+    margin: auto;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid black;
+    padding: 20px 40px;
+    font-size: 20px;
+}
