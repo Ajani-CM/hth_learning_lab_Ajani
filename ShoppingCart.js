@@ -25,3 +25,12 @@ function calculateTotal(cart) {
 // Call the function and show the result
 let totalCost = calculateTotal(shoppingCart);
 console.log("Total cost is $" + totalCost);
+
+let testCart1 = ["apple", "milk", "bread", "banana", "apple"];
+let expectedTotal1 = 6.00;
+let actualTotal1 = calculateTotal(testCart1);
+console.assert(actualTotal1 === expectedTotal1, "Test 1 Failed");
+
+let testCart2 = ["apple", "orange", "milk"];
+let actualTotal2 = calculateTotal(testCart2);
+console.assert(!isNaN(actualTotal2), "Test 2 Failed");
